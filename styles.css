@@ -11,3 +11,48 @@ ul {
 a {
     text-decoration: none;
 }
+
+
+:root {
+    --dark-blue: #1f2937;
+    --grey: #e5e7eb;
+    --white: #f9faf8;
+  }
+  
+  .width-limit {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #site-wrapper {
+    min-height: 100vh;
+    background: #cac;
+  }
+  
+  nav {
+    background: var(--dark-blue);
+    padding: 12px;
+  }
+  
+  nav .width-limit {
+    display: flex;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: bold;
+    flex: 1 1 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  nav ul li a {
+    color: var(--grey);
+    font-size: 18px;
+  }
