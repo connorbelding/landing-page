@@ -13,6 +13,7 @@ a {
 
 button {
   border: none;
+  display: block;
 }
 
 :root {
@@ -67,14 +68,14 @@ nav ul li a {
 #hero .width-limit {
   display: flex;
   gap: 8px;
-  padding: 75px 0;
+  padding: 100px 0 130px 0;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 12px;
+  gap: 16px;
 }
 
 .hero-content h1 {
@@ -181,6 +182,43 @@ nav ul li a {
 
 #cta-section {
   background: var(--white);
+  padding: 100px 0;
+}
+
+#cta-section .width-limit {
+  background: var(--light-blue);
+  display: flex;
+  padding: 50px 150px;
+  border-radius: 10px;
+}
+
+.cta-text-container {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cta-text-container h3 {
+  font-size: 22px;
+}
+
+.cta-text-container p {
+  font-size: 18px;
+}
+
+#cta-section button {
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  margin-left: auto;
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 6px 28px;
+  border-radius: 5px;
 }
 
 footer {
